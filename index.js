@@ -4,8 +4,12 @@ elements.forEach((element) => {
   element.addEventListener('click', () => (modal.style.display = 'block'));
 });
 
-window.onclick = function (event) {
-  if (event.target === modal) {
-    modal.style.display = 'none';
-  }
-};
+// window.onclick = function (event) {
+//   if (event.target === modal) {
+//     modal.style.display = 'none';
+//   }
+// };
+
+function closed() {
+  modal.style.display = 'none';
+}

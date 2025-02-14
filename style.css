@@ -204,7 +204,7 @@ header {
   font-style: oblique;
   font-size: 2rem;
   font-weight: 700;
-  position: absolute;
+  position: fixed;
   margin: auto;
   left: 0;
   right: 0;
@@ -223,7 +223,7 @@ header {
 }
 @keyframes slideDown {
   from {
-    transform: translateY(-100%);
+    transform: translateY(-50%);
   }
 }
 /*MEDIA QUERY SECTION*/
