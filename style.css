@@ -194,11 +194,12 @@ header {
   height: 300px;
   padding: 2em;
   background-color: rgba(0, 0, 0, 0.5);
-  color: whitesmoke;
+  color: red;
   border-radius: 20px;
   font-style: oblique;
   font-size: 2rem;
   font-weight: 700;
+  justify-items: center;
   position: fixed;
   margin: auto;
   left: 0;
@@ -210,11 +211,12 @@ header {
   transition: 2s ease-out;
 }
 .close-modal {
-  top: 0;
+  top: 30px;
   right: 30px;
   position: absolute;
   font-size: 1rem;
   cursor: pointer;
+  color: yellow;
 }
 @keyframes slideDown {
   from {
